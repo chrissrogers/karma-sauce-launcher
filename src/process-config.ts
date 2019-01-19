@@ -41,6 +41,7 @@ export function processConfig (config: any = {}, args: any = {}) {
     recordVideo: config.recordVideo,
     tags: config.tags || [],
     tunnelIdentifier: tunnelIdentifier,
+    extendedDebugging: config.extendedDebugging || false,
     'custom-data': config.customData,
   };
 

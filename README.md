@@ -23,7 +23,7 @@ npm install karma-sauce-launcher --save-dev
 
 This launcher is typically used in CI to run your unit tests across many browsers and platforms on Sauce Labs. However, you can also use it locally to debug tests in browsers not available on your machine. It is expected that you are already familiar with Karma when configuring this launcher, so if you are new to Karma, head over to the [Karma website](http://karma-runner.github.io/).
 
-The [Sauce Labs platform configurator](https://wiki.saucelabs.com/display/DOCS/Platform+Configurator/#/) can help to find the correct configuration for your desired test platform. 
+The [Sauce Labs platform configurator](https://wiki.saucelabs.com/display/DOCS/Platform+Configurator/#/) can help to find the correct configuration for your desired test platform.
 
 ### Adding karma-sauce-launcher to an existing Karma config
 
@@ -188,6 +188,10 @@ Default: `null`
 
 Control who can view job details. Available visibility levels are documented on
 the [SauceLabs website](https://wiki.saucelabs.com/display/DOCS/Test+Configuration+Options#TestConfigurationOptions-JobVisibility).
+
+### extendedDebugging
+Type:  `boolean`
+Default: `false`
 
 ### customData
 Type: `Object`
